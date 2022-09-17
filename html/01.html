@@ -1,10 +1,95 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--文档声明-->
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <base href="http://www.runoob.com/images/" target="_blank">
+</head>
+<body><!--只有body区域才会在浏览器中显示-->
+    <h1>01</h1>
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <h4>hello</h4>
+    <h5>hello</h5><br><br>
+    <h6>hello</h6>
+    <p>段落</p>
+    <a href="02.html">跳到02</a>
+    <!--注释-->
+    <script type="text/javascript">
+        <!--
+        function displayMsg()
+        {
+          alert("Hello World!")
+        }
+        //-->
+    </script>
+    <p>the <abbr title="Aaaaa Baaaa">AB</abbr> </p>
+    <h4>地址</h4>
+    <address>
+        地址格式<br>
+        aaaa<br>
+        bbbb<br>
+        ccc,dddd<br>
+        eee
+    </address>
+    <h4>map 和 area 图像，按坐标点链接</h4>
+    <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+    <map name="planetmap">
+        <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+        <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+        <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+    </map>
+    <h4>article 标签</h4>
+    <article>
+        <h3>Internet Explorer 9</h3>
+        <p> Windows Internet Explorer 9(缩写为IE9)在2011年3月14日21:00 发布。</p>
+        <aside>
+            <h4>aside 内部</h4>
+        </aside>
+    </article>
+    <p>article 结束</p>
+    <h4>aside 标签</h4>
+    <aside>
+        <h4>aside 内部，好像也没啥区别</h4>
+    </aside>
+    <audio controls>
+        <!--<source src="horse.ogg" type="audio/ogg">-->
+        <source src="horse.mp3" type="audio/mpeg">
+        您的浏览器不支持 audio 元素。
+    </audio>
+    <h4>b 标签</h4>
+    <p>正常 <b>加粗</b> 正常</p>
+    <h4>base 标签，在 head 里定义了资源链接，就能在 src 里引用</h4>
+    <img src="logo.png" width="24" height="39" alt="Stickman">
+    <h4>bdi 标签</h4>
+    <ul>
+        <li>用户<bdi>hrefs</bdi>: 60 分</li>
+        <li>用户 jdoe : 80 分</li>
+        <li>用户<bdi>إيان</bdi>: 90 分</li>
+    </ul>
+    <h4>rtl 标签</h4>
+    <p>该段落文字从左到右显示。</p>
+    <p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>
+    <h4>blockquote 标签</h4>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
 
-    </body>
+</body>
 </html>
+
+
+
+
+`
+
+
+
+
+
+
+
+
+
+
+
